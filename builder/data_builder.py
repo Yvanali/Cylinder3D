@@ -11,7 +11,7 @@ def build(dataset_config,
           train_dataloader_config,
           val_dataloader_config,
           grid_size=[480, 360, 32]):
-    data_path = train_dataloader_config["data_path"]
+    data_path = train_dataloader_config["/media/omnisky/dataset_disk/xuyan/SemanticKITTI/dataset"]
     train_imageset = train_dataloader_config["imageset"]
     val_imageset = val_dataloader_config["imageset"]
     train_ref = train_dataloader_config["return_ref"]
