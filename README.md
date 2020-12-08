@@ -14,12 +14,13 @@
 ## Installation
 
 ### Requirements
-- PyTorch >= 1.2 
+- PyTorch >= 1.2 (pip install torch==1.6.0 torchvision==0.7.0)
 - yaml
 - Cython
-- [torch-scatter](https://github.com/rusty1s/pytorch_scatter)
+- [torch-scatter](https://github.com/rusty1s/pytorch_scatter, pip install torch-scatter)
 - [nuScenes-devkit](https://github.com/nutonomy/nuscenes-devkit) (optional for nuScenes)
 - [spconv](https://github.com/traveller59/spconv) (tested with spconv==1.2.1 and cuda==10.2)
+
 
 ## Data Preparation
 
